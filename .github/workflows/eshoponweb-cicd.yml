@@ -6,11 +6,11 @@ on:
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
-  RESOURCE-GROUP: rg-eshoponweb-region2
-  LOCATION: westus2
+  RESOURCE-GROUP: rg-eshoponweb-westeurope
+  LOCATION: westeurope
   TEMPLATE-FILE: infra/webapp.bicep
-  SUBSCRIPTION-ID: 9fd49a55-f456-4ef6-ace7-de349fc7c186
-  WEBAPP-NAME: devops-webapp-region2-65266150
+  SUBSCRIPTION-ID: a356fc65-9898-451c-b90b-8380a6863cf8
+  WEBAPP-NAME: devops-webapp-westeurope-65267420
 
 jobs:
   #Build, test and publish .net web project in repository
